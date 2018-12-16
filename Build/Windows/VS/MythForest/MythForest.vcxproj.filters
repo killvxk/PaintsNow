@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Source\Utility\MythForest\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Entity.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\MythForest.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Camera\CameraComponent.cpp">
+      <Filter>Component\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Event\EventListenerComponent.cpp">
+      <Filter>Component\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Form\FormComponent.cpp">
+      <Filter>Component\Form</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Light\LightComponent.cpp">
+      <Filter>Component\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Model\ModelComponent.cpp">
+      <Filter>Component\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Space\SpaceComponent.cpp">
+      <Filter>Component\Space</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Surface\SurfaceComponent.cpp">
+      <Filter>Component\Surface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Terrain\TerrainComponent.cpp">
+      <Filter>Component\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Transform\TransformComponent.cpp">
+      <Filter>Component\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Camera\CameraComponentModule.cpp">
+      <Filter>Component\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Event\EventListenerComponentModule.cpp">
+      <Filter>Component\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Form\FormComponentModule.cpp">
+      <Filter>Component\Form</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Light\LightComponentModule.cpp">
+      <Filter>Component\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Model\ModelComponentModule.cpp">
+      <Filter>Component\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Space\SpaceComponentModule.cpp">
+      <Filter>Component\Space</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Surface\SurfaceComponentModule.cpp">
+      <Filter>Component\Surface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Terrain\TerrainComponentModule.cpp">
+      <Filter>Component\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Transform\TransformComponentModule.cpp">
+      <Filter>Component\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Module.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Engine.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Renderable\RenderableComponent.cpp">
+      <Filter>Component\Renderable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Renderable\RenderableComponentModule.cpp">
+      <Filter>Component\Renderable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Unit.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Sound\SoundComponent.cpp">
+      <Filter>Component\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Sound\SoundComponentModule.cpp">
+      <Filter>Component\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Batch\BatchComponent.cpp">
+      <Filter>Component\Batch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Batch\BatchComponentModule.cpp">
+      <Filter>Component\Batch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderFlowComponent.cpp">
+      <Filter>Component\RenderFlow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderFlowComponentModule.cpp">
+      <Filter>Component\RenderFlow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Animation\AnimationComponent.cpp">
+      <Filter>Component\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Animation\AnimationComponentModule.cpp">
+      <Filter>Component\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderStage.cpp">
+      <Filter>Component\RenderFlow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderStage\DeferredLightingRenderStage.cpp">
+      <Filter>Component\RenderFlow\RenderStage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderStage\GeometryBufferRenderStage.cpp">
+      <Filter>Component\RenderFlow\RenderStage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderStage\HighDynamicRangeRenderStage.cpp">
+      <Filter>Component\RenderFlow\RenderStage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderStage\ScreenSpaceTraceRenderStage.cpp">
+      <Filter>Component\RenderFlow\RenderStage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderStage\ShadowMaskRenderStage.cpp">
+      <Filter>Component\RenderFlow\RenderStage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderStage\TemporalResamplerRenderStage.cpp">
+      <Filter>Component\RenderFlow\RenderStage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderStage\FrameBarrierRenderStage.cpp">
+      <Filter>Component\RenderFlow\RenderStage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderPort.cpp">
+      <Filter>Component\RenderFlow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Event.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderPort\RenderPortRenderTarget.cpp">
+      <Filter>Component\RenderFlow\RenderPort</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderPort\RenderPortCommandQueue.cpp">
+      <Filter>Component\RenderFlow\RenderPort</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderPort\RenderPortLightSource.cpp">
+      <Filter>Component\RenderFlow\RenderPort</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Shape\ShapeComponent.cpp">
+      <Filter>Component\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Shape\ShapeComponentModule.cpp">
+      <Filter>Component\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Compute\ComputeComponent.cpp">
+      <Filter>Component\Compute</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Compute\ComputeComponentModule.cpp">
+      <Filter>Component\Compute</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Visibility\VisibilityComponent.cpp">
+      <Filter>Component\Visibility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Visibility\VisibilityComponentModule.cpp">
+      <Filter>Component\Visibility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Field\FieldComponent.cpp">
+      <Filter>Component\Field</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Field\FieldComponentModule.cpp">
+      <Filter>Component\Field</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Particle\ParticleComponent.cpp">
+      <Filter>Component\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Particle\ParticleComponentModule.cpp">
+      <Filter>Component\Particle</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Entity.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\MythForest.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Camera\CameraComponent.h">
+      <Filter>Component\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Event\EventListenerComponent.h">
+      <Filter>Component\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Form\FormComponent.h">
+      <Filter>Component\Form</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Light\LightComponent.h">
+      <Filter>Component\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Model\ModelComponent.h">
+      <Filter>Component\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Space\SpaceComponent.h">
+      <Filter>Component\Space</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Surface\SurfaceComponent.h">
+      <Filter>Component\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Terrain\TerrainComponent.h">
+      <Filter>Component\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Transform\TransformComponent.h">
+      <Filter>Component\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Camera\CameraComponentModule.h">
+      <Filter>Component\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Event\EventListenerComponentModule.h">
+      <Filter>Component\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Form\FormComponentModule.h">
+      <Filter>Component\Form</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Light\LightComponentModule.h">
+      <Filter>Component\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Model\ModelComponentModule.h">
+      <Filter>Component\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Space\SpaceComponentModule.h">
+      <Filter>Component\Space</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Surface\SurfaceComponentModule.h">
+      <Filter>Component\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Terrain\TerrainComponentModule.h">
+      <Filter>Component\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Transform\TransformComponentModule.h">
+      <Filter>Component\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Module.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Engine.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Renderable\RenderableComponent.h">
+      <Filter>Component\Renderable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Renderable\RenderableComponentModule.h">
+      <Filter>Component\Renderable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Unit.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Sound\SoundComponent.h">
+      <Filter>Component\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Sound\SoundComponentModule.h">
+      <Filter>Component\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Batch\BatchComponent.h">
+      <Filter>Component\Batch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Batch\BatchComponentModule.h">
+      <Filter>Component\Batch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderFlowComponent.h">
+      <Filter>Component\RenderFlow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderFlowComponentModule.h">
+      <Filter>Component\RenderFlow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Animation\AnimationComponent.h">
+      <Filter>Component\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Animation\AnimationComponentModule.h">
+      <Filter>Component\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderStage.h">
+      <Filter>Component\RenderFlow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderStage\DeferredLightingRenderStage.h">
+      <Filter>Component\RenderFlow\RenderStage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderStage\GeometryBufferRenderStage.h">
+      <Filter>Component\RenderFlow\RenderStage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderStage\HighDynamicRangeRenderStage.h">
+      <Filter>Component\RenderFlow\RenderStage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderStage\ScreenSpaceTraceRenderStage.h">
+      <Filter>Component\RenderFlow\RenderStage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderStage\ShadowMaskRenderStage.h">
+      <Filter>Component\RenderFlow\RenderStage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderStage\TemporalResamplerRenderStage.h">
+      <Filter>Component\RenderFlow\RenderStage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderStage\FrameBarrierRenderStage.h">
+      <Filter>Component\RenderFlow\RenderStage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderPort.h">
+      <Filter>Component\RenderFlow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Event.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderPort\RenderPortRenderTarget.h">
+      <Filter>Component\RenderFlow\RenderPort</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderPort\RenderPortCommandQueue.h">
+      <Filter>Component\RenderFlow\RenderPort</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderPort\RenderPortLightSource.h">
+      <Filter>Component\RenderFlow\RenderPort</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Shape\ShapeComponent.h">
+      <Filter>Component\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Shape\ShapeComponentModule.h">
+      <Filter>Component\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Compute\ComputeComponent.h">
+      <Filter>Component\Compute</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Compute\ComputeComponentModule.h">
+      <Filter>Component\Compute</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Visibility\VisibilityComponent.h">
+      <Filter>Component\Visibility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Visibility\VisibilityComponentModule.h">
+      <Filter>Component\Visibility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Field\FieldComponent.h">
+      <Filter>Component\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Field\FieldComponentModule.h">
+      <Filter>Component\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Particle\ParticleComponent.h">
+      <Filter>Component\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Particle\ParticleComponentModule.h">
+      <Filter>Component\Particle</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Component">
+      <UniqueIdentifier>{a0b5c80b-f24d-4f76-9d02-4b9d3dddc913}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Animation">
+      <UniqueIdentifier>{88e8fa76-12ec-4ed9-b403-34834b531883}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Camera">
+      <UniqueIdentifier>{eeed6eaf-8b4c-4947-989a-1b9e018b8735}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Event">
+      <UniqueIdentifier>{da44f24b-9bcc-428c-b977-42008d672d30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Form">
+      <UniqueIdentifier>{53a58f74-985f-4c2f-a57f-42142da4df83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Light">
+      <UniqueIdentifier>{e6d116b8-056b-4da2-905c-21af55a1ea92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Model">
+      <UniqueIdentifier>{af7a65a2-2781-48a8-9836-645c79c0ad3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Space">
+      <UniqueIdentifier>{074a5fcf-bdcc-4f9c-991a-9734ebfdbe36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Surface">
+      <UniqueIdentifier>{58ac9ce8-d151-4803-9dd5-8d10c4161b4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Terrain">
+      <UniqueIdentifier>{5b2dc181-02e1-4b54-94cb-ea14a8b94f58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Transform">
+      <UniqueIdentifier>{11bae07e-b671-4de3-b40d-3c7fbac869f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Renderable">
+      <UniqueIdentifier>{029a9aa0-c035-4264-abaa-c91031ea7f42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Sound">
+      <UniqueIdentifier>{d13d5d49-7c46-4ee8-b41f-548c70216f4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Batch">
+      <UniqueIdentifier>{2a320bae-d3b0-4449-818b-7fbaed7865e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\RenderFlow">
+      <UniqueIdentifier>{724f52a6-6102-4a43-8e50-c2e9093d3fcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\RenderFlow\RenderStage">
+      <UniqueIdentifier>{bb4305d3-1727-44e2-9d60-932d0210abae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\RenderFlow\RenderPort">
+      <UniqueIdentifier>{84b60dcf-a81c-4e5a-b546-2a4542c3ba06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Shape">
+      <UniqueIdentifier>{1f5ee17a-373b-4ef7-bf0c-96295bd105f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Compute">
+      <UniqueIdentifier>{28965deb-be64-4d26-a6c4-8bc61a2af4ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Visibility">
+      <UniqueIdentifier>{d5c1765b-0eaa-42f8-b461-ea67135d327a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Field">
+      <UniqueIdentifier>{f4764173-8e34-42e7-8cd8-0217aefc0d0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Particle">
+      <UniqueIdentifier>{e5a0f7fb-6679-4d78-9dc4-9ea25c12affc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

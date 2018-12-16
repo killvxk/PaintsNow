@@ -1,0 +1,83 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html charset=UTF-8">
+		<title>ShadowRock Terminal</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/dashboard.css">
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">ShadowRock Terminal</a>
+				</div>
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#">Dashboard</a></li>
+						<li><a href="#">Settings</a></li>
+						<li><a href="#">Profile</a></li>
+						<li><a href="#">Help</a></li>
+					</ul>
+					<form class="navbar-form navbar-right">
+						<input type="text" class="form-control" placeholder="Search...">
+					</form>
+				</div>
+			</div>
+		</nav>
+
+		<div class="container-fluid" id="app">
+			<div class="row">
+				<div class="col-sm-2 col-md-2 sidebar">
+					<ul class="nav nav-sidebar">
+						<li v-for="(tab, index) in FunctionTabs"  v-on:click="store.commit('SwitchTab', tab.Name)"><a href="#"><span v-bind:class="tab.Class"></span> {{ tab.Name }}</a></li>
+					</ul>
+
+					<ul class="nav nav-sidebar">
+						<li v-for="(tab, index) in ShareTabs"  v-on:click="store.commit('SwitchTab', tab.Name)"><a href="#"><span v-bind:class="tab.Class"></span> {{ tab.Name }}</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+					<h1 class="page-header">{{ CurrentTab }}</h1>
+					<div class="row placeholders"></div>
+					<div class="col-sm-3 col-md-3">
+					<canvas id="myChart" width="800" height="800"></canvas>
+					<canvas id="bubble-chart" width="800" height="800" class="chartjs-render-monitor" style="display: block; height: 800px; width: 800px;"></canvas>
+					</div>
+
+					<div class="table-responsive" v-if="CurrentTab == 'Document'">
+						<div class="panel panel-primary">
+							<div class="panel-heading">Engine</div>
+							<div class="panel-body">{{ Description }}
+							</div>
+						</div>
+						<table class="table table-striped">
+							<thead>
+								<tr>
+									<th>Module</th>
+									<th>Name</th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/Chart.bundle.min.js"></script>
+		<script type="text/javascript" src="js/ChartSamples.js"></script>
+		<script type="text/javascript" src="js/vue.min.js"></script>
+		<script type="text/javascript" src="js/vuex.min.js"></script>
+		<script type="text/javascript" src="js/axios.min.js"></script>
+		<script type="text/javascript" src="js/ShadowRock.js"></script>
+	</body>
+</html>

@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseDynamicCRT|Win32">
+      <Configuration>ReleaseDynamicCRT</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseDynamicCRT|x64">
+      <Configuration>ReleaseDynamicCRT</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D7A12070-4CEE-4010-BCFC-7440777A437B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>SnowyStream</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseDynamicCRT|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseDynamicCRT|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseDynamicCRT|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseDynamicCRT|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseDynamicCRT|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseDynamicCRT|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Cache.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\File.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\ResourceBase.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\ResourceManager.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\AudioResource.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\FontResource.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\GraphicResourceBase.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\MaterialResource.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\MeshResource.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\ModelResource.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\ParticleResource.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Pipelines\DeferredLightingPipeline.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Pipelines\HashTracePipeline.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Pipelines\ParticlePipeline.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Pipelines\StandardPipeline.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Pipelines\TerrainPipeline.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Pipelines\VolumePipeline.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Pipelines\WaterPipeline.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Pipelines\WidgetPipeline.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\RenderTargetResource.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\ShaderResource.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Shaders\DeferredCompact.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Shaders\MultiHashTrace.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Shaders\ScreenSpaceTrace.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Shaders\ShadowMap.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Shaders\SineWave.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Shaders\StandardLighting.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Shaders\StandardParameter.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Shaders\StandardSkinning.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Shaders\StandardTransform.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Shaders\WidgetShading.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Shaders\WidgetTransform.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\SkeletonResource.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\AnalyticCurveResource.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\TapeResource.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\TerrainResource.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\TextResource.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\TextureResource.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\VolumeResource.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\SnowyStream.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Zipper.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Cache.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\File.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\ResourceBase.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\ResourceManager.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\AudioResource.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\FontResource.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\GraphicResourceBase.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\MaterialResource.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\MeshResource.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\ModelResource.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\ParticleResource.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Pipelines\DeferredLightingPipeline.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Pipelines\HashTracePipeline.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Pipelines\ParticlePipeline.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Pipelines\StandardPipeline.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Pipelines\TerrainPipeline.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Pipelines\VolumePipeline.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Pipelines\WaterPipeline.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Pipelines\WidgetPipeline.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\RenderTargetResource.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\ShaderResource.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Shaders\DeferredCompact.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Shaders\MultiHashTrace.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Shaders\ScreenSpaceTrace.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Shaders\ShadowMap.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Shaders\SineWave.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Shaders\StandardLighting.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Shaders\StandardParameter.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Shaders\StandardSkinning.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Shaders\StandardTransform.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Shaders\WidgetShading.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Shaders\WidgetTransform.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\SkeletonResource.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\AnalyticCurveResource.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\TapeResource.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\TerrainResource.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\TextResource.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\TextureResource.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\VolumeResource.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\SnowyStream.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Zipper.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

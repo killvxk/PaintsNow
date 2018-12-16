@@ -1,0 +1,1479 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{e77a73f0-afb2-469a-a66d-5f287ea51355}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Common">
+      <UniqueIdentifier>{4ad705ba-a320-4906-9a2c-10a953a4d931}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Interface">
+      <UniqueIdentifier>{371c1b79-fbbe-4df0-8506-547a8a30f881}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver">
+      <UniqueIdentifier>{b1fb73d8-fa04-4eed-b91a-5654b5d55378}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Archive">
+      <UniqueIdentifier>{a4291598-700d-48a1-8860-1d7403b48baf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Archive\Dirent">
+      <UniqueIdentifier>{c2974f50-b210-48b0-9aaf-99b0d0c22987}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Asset">
+      <UniqueIdentifier>{764e9732-5c57-4af2-838b-3e4d46598187}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Asset\Model">
+      <UniqueIdentifier>{d755c807-a598-4d49-be30-c1ed6016948b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Asset\Model\MS3D">
+      <UniqueIdentifier>{4ca8566e-96e6-47e7-8f2d-7cf284debda3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Font">
+      <UniqueIdentifier>{d4c992df-9a76-45e6-b365-16aa73124828}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Font\FreeType">
+      <UniqueIdentifier>{7f9f0ad6-6de6-4a3a-8d81-b8cdc334ddfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Frame">
+      <UniqueIdentifier>{8203c2bb-64a5-44df-8867-7b18fd6a9f3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Frame\Freeglut">
+      <UniqueIdentifier>{2e5e3060-bb61-4dc8-b599-4d98cc8e6c48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Image">
+      <UniqueIdentifier>{b6737c52-973f-4610-b11d-3a86999ec176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Thread">
+      <UniqueIdentifier>{88def2e0-25a5-48fb-8829-81d07c362092}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Thread\Pthread">
+      <UniqueIdentifier>{8adee9bf-449b-4474-bb45-fe4522b1150d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Timer">
+      <UniqueIdentifier>{812db6ed-db83-46d8-8290-16991d994d5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Timer\Freeglut">
+      <UniqueIdentifier>{e3c7ba53-75bd-45fa-a21a-8eae1c0bc1db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Render">
+      <UniqueIdentifier>{5417bbf3-9b91-4023-ad7e-d9c8eb0919da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Render\OpenGL">
+      <UniqueIdentifier>{6e62f78d-aa5e-463c-ab63-9668da1e1824}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Network">
+      <UniqueIdentifier>{8083e394-0b29-45e1-9526-ffed220698d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Script">
+      <UniqueIdentifier>{63397d20-523b-4b21-87f5-c515c56da8b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Script\Lua">
+      <UniqueIdentifier>{409a741b-bdba-4c31-9307-c078b03114e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Script\Lua\Core">
+      <UniqueIdentifier>{0ceaf0f1-7d1d-41fb-9224-f5163367f65f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Filter">
+      <UniqueIdentifier>{09fcdfac-af9a-469c-9b86-f4e1287ac3e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Filter\LZMA">
+      <UniqueIdentifier>{4ddf4ddd-9509-4f78-b164-7f102ca6dea3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Filter\Pod">
+      <UniqueIdentifier>{2c5ce09c-9adb-4faf-ba59-d2b776fa790b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Filter\Pod\Core">
+      <UniqueIdentifier>{d0195aea-7f83-4a7a-8852-03b17b2658d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Filter\LZMA\Core">
+      <UniqueIdentifier>{1a9bdd65-c28f-4421-b3d8-bcbebb71507c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Template">
+      <UniqueIdentifier>{f1a133a4-36fb-4034-a8a1-7976a67804aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Debugger">
+      <UniqueIdentifier>{27e27685-b815-4020-844f-aff88d2f6cf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Render\OpenGL\3">
+      <UniqueIdentifier>{e76c0acd-f14c-441c-a913-18c21e49e6fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Audio">
+      <UniqueIdentifier>{fc3c0e3d-5ed0-41c6-8b93-dab397f3e9db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Audio\OpenAL">
+      <UniqueIdentifier>{8e58da37-45d3-4b78-969f-12cb587b2c79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Audio\Decoder">
+      <UniqueIdentifier>{53f10ea3-648a-45ea-928f-8f9985306e8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Audio\Decoder\LAME">
+      <UniqueIdentifier>{db8cfac0-6036-416f-a116-71826dd0ee36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Archive\7Z">
+      <UniqueIdentifier>{56b9f9f0-2ed7-4247-94d0-cafd8cb474b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Timer\WinQueueTimer">
+      <UniqueIdentifier>{1d913ee3-1b6f-48e9-a987-a413e9dd68e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Network\LibEvent">
+      <UniqueIdentifier>{9fc798e4-3556-4ed3-a6fd-0c53558424e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Filter\Json">
+      <UniqueIdentifier>{9a172a8f-429f-4514-be1a-0ff64038d394}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Filter\Json\Core">
+      <UniqueIdentifier>{dfbcec3f-18ab-43ea-b912-374e7f40d2a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Timer\PosixTimer">
+      <UniqueIdentifier>{d91d1ef0-5b4b-45ae-9357-07cb9660c8f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Filter\LZW">
+      <UniqueIdentifier>{517419ae-d331-4bb9-b69a-b72365a2fc70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Database">
+      <UniqueIdentifier>{526e5c2e-3b11-48a7-8269-a5d200a9dc7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Database\Sqlite">
+      <UniqueIdentifier>{72d1843c-275d-4b41-a962-77407648ec89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Database\Sqlite\Core">
+      <UniqueIdentifier>{6d7a0530-eb78-4a80-b399-3281a1f3d314}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Image\FreeImage">
+      <UniqueIdentifier>{2e353928-ab1a-42c5-9af1-a959eeb7372b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Random">
+      <UniqueIdentifier>{1b83d19c-18fc-402d-b1b8-d93ef205a554}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Random\Libnoise">
+      <UniqueIdentifier>{269e7585-cf49-4008-8d50-8dea1358d7aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Random\Libnoise\Core">
+      <UniqueIdentifier>{f0cb93de-0c78-4e5e-b1a0-a8c89b04bf8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Random\Libnoise\Core\module">
+      <UniqueIdentifier>{ea8f9ad4-4937-4271-8648-8d7b79aa367f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Random\Libnoise\Core\model">
+      <UniqueIdentifier>{b2e37af6-f5cd-444f-aae3-93ea7e1ca01b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Script\TCC">
+      <UniqueIdentifier>{05aecdca-8364-4804-b6af-a08b90de4ef1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Script\TCC\Core">
+      <UniqueIdentifier>{05ec9c72-9cf1-4537-bb26-e7aa30223d20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Debugger\MiniDump">
+      <UniqueIdentifier>{98c690e9-b145-4145-92ab-e4300b3ce872}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Debugger\ScriptDebugger">
+      <UniqueIdentifier>{1917abd0-d4c1-48f1-bde5-e6d55c8cf108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Timer\DXUT">
+      <UniqueIdentifier>{3fec60e0-414d-43a4-af7f-602b157d575c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Tunnel">
+      <UniqueIdentifier>{db16dd46-e311-4ff4-9931-f44edae03d96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Tunnel\WinPipe">
+      <UniqueIdentifier>{69174cf2-1a83-4585-8ca7-7ce5136ae832}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Object">
+      <UniqueIdentifier>{5242f930-c23c-410a-aca1-7b0e82a3c1d3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Source\Core\Interface\IArchive.h">
+      <Filter>Core\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Interface\IAsset.h">
+      <Filter>Core\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Interface\IAudio.h">
+      <Filter>Core\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Interface\IFrame.h">
+      <Filter>Core\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Interface\IImage.h">
+      <Filter>Core\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Interface\IRender.h">
+      <Filter>Core\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Interface\IScript.h">
+      <Filter>Core\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Interface\IThread.h">
+      <Filter>Core\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Interface\ITimer.h">
+      <Filter>Core\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Template\TVector.h">
+      <Filter>Core\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Interface\INetwork.h">
+      <Filter>Core\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Archive\Dirent\ZArchiveDirent.h">
+      <Filter>Driver\Archive\Dirent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Audio\OpenAL\ZAudioOpenAL.h">
+      <Filter>Driver\Audio\OpenAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Font\Freetype\ZFontFreetype.h">
+      <Filter>Driver\Font\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Frame\Freeglut\ZFrameFreeglut.h">
+      <Filter>Driver\Frame\Freeglut</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\ZScriptLua.h">
+      <Filter>Driver\Script\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Thread\Pthread\ZThreadPthread.h">
+      <Filter>Driver\Thread\Pthread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Timer\Freeglut\ZTimerFreeglut.h">
+      <Filter>Driver\Timer\Freeglut</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Template\TMatrix.h">
+      <Filter>Core\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Interface\IMemory.h">
+      <Filter>Core\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Template\TAlgorithm.h">
+      <Filter>Core\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Interface\IShader.h">
+      <Filter>Core\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Template\TShaderVariable.h">
+      <Filter>Core\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Audio\Decoder\LAME\ZDecoderLAME.h">
+      <Filter>Driver\Audio\Decoder\LAME</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Template\TFactory.h">
+      <Filter>Core\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Template\TProxy.h">
+      <Filter>Core\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\ZFilterLZMA.h">
+      <Filter>Driver\Filter\LZMA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\Pod\ZFilterPod.h">
+      <Filter>Driver\Filter\Pod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\Pod\Core\Pod.h">
+      <Filter>Driver\Filter\Pod\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Interface\ILayout.h">
+      <Filter>Core\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Template\TObject.h">
+      <Filter>Core\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\7z.h">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\7zAlloc.h">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\7zBuf.h">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\7zCrc.h">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\7zFile.h">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\7zVersion.h">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Alloc.h">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Bcj2.h">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Bra.h">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\CpuArch.h">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Delta.h">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\LzFind.h">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\LzFindMt.h">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\LzHash.h">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Lzma2Dec.h">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Lzma2Enc.h">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Lzma86.h">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\LzmaDec.h">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\LzmaEnc.h">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\LzmaLib.h">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\MtCoder.h">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Ppmd.h">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Ppmd7.h">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\RotateDefs.h">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Sha256.h">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Types.h">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\lapi.h">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\lauxlib.h">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\lcode.h">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\lctype.h">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\ldebug.h">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\ldo.h">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\lfunc.h">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\lgc.h">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\llex.h">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\llimits.h">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\lmem.h">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\lobject.h">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\lopcodes.h">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\lparser.h">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\lprefix.h">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\lstate.h">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\lstring.h">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\ltable.h">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\ltm.h">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\lua.h">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\lua.hpp">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\luaconf.h">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\lualib.h">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\lundump.h">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\lvm.h">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\lzio.h">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Interface\IStreamBase.h">
+      <Filter>Core\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Template\TEvent.h">
+      <Filter>Core\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\7zTypes.h">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Aes.h">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Compiler.h">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Precomp.h">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Sort.h">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Archive\7Z\ZArchive7Z.h">
+      <Filter>Driver\Archive\7Z</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Interface\IReflect.h">
+      <Filter>Core\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Interface\IDebugger.h">
+      <Filter>Core\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Template\TMaskType.h">
+      <Filter>Core\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Interface\IDeferredObject.h">
+      <Filter>Core\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Render\OpenGL\3\ZRenderOpenGL3.h">
+      <Filter>Driver\Render\OpenGL\3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Timer\WinTimerQueue\ZWinTimerQueue.h">
+      <Filter>Driver\Timer\WinQueueTimer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Network\LibEvent\ZNetworkLibEvent.h">
+      <Filter>Driver\Network\LibEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\Json\ZFilterJson.h">
+      <Filter>Driver\Filter\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\Json\Core\assertions.h">
+      <Filter>Driver\Filter\Json\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\Json\Core\autolink.h">
+      <Filter>Driver\Filter\Json\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\Json\Core\config.h">
+      <Filter>Driver\Filter\Json\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\Json\Core\features.h">
+      <Filter>Driver\Filter\Json\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\Json\Core\forwards.h">
+      <Filter>Driver\Filter\Json\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\Json\Core\json.h">
+      <Filter>Driver\Filter\Json\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\Json\Core\json_tool.h">
+      <Filter>Driver\Filter\Json\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\Json\Core\reader.h">
+      <Filter>Driver\Filter\Json\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\Json\Core\value.h">
+      <Filter>Driver\Filter\Json\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\Json\Core\version.h">
+      <Filter>Driver\Filter\Json\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\Json\Core\writer.h">
+      <Filter>Driver\Filter\Json\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Timer\PosixTimer\ZPosixTimer.h">
+      <Filter>Driver\Timer\PosixTimer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZW\ZFilterLZW.h">
+      <Filter>Driver\Filter\LZW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Interface\IDatabase.h">
+      <Filter>Core\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Database\Sqlite\ZDatabaseSqlite.h">
+      <Filter>Driver\Database\Sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Database\Sqlite\Core\sqlite3.h">
+      <Filter>Driver\Database\Sqlite\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Database\Sqlite\Core\sqlite3ext.h">
+      <Filter>Driver\Database\Sqlite\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Interface\IFontBase.h">
+      <Filter>Core\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Interface\IFilterBase.h">
+      <Filter>Core\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Interface\ITask.h">
+      <Filter>Core\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Threads.h">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Xz.h">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\XzCrc64.h">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\XzEnc.h">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Image\FreeImage\ZImageFreeImage.h">
+      <Filter>Driver\Image\FreeImage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\ZRandomLibnoisePerlin.h">
+      <Filter>Driver\Random\Libnoise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\basictypes.h">
+      <Filter>Driver\Random\Libnoise\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\exception.h">
+      <Filter>Driver\Random\Libnoise\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\interp.h">
+      <Filter>Driver\Random\Libnoise\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\latlon.h">
+      <Filter>Driver\Random\Libnoise\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\mathconsts.h">
+      <Filter>Driver\Random\Libnoise\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\misc.h">
+      <Filter>Driver\Random\Libnoise\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\noise.h">
+      <Filter>Driver\Random\Libnoise\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\noisegen.h">
+      <Filter>Driver\Random\Libnoise\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\vectortable.h">
+      <Filter>Driver\Random\Libnoise\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\abs.h">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\add.h">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\billow.h">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\blend.h">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\cache.h">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\checkerboard.h">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\clamp.h">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\const.h">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\curve.h">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\cylinders.h">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\displace.h">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\exponent.h">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\invert.h">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\max.h">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\min.h">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\module.h">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\modulebase.h">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\multiply.h">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\perlin.h">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\power.h">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\ridgedmulti.h">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\rotatepoint.h">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\scalebias.h">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\scalepoint.h">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\select.h">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\spheres.h">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\terrace.h">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\translatepoint.h">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\turbulence.h">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\voronoi.h">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\model\cylinder.h">
+      <Filter>Driver\Random\Libnoise\Core\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\model\line.h">
+      <Filter>Driver\Random\Libnoise\Core\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\model\model.h">
+      <Filter>Driver\Random\Libnoise\Core\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\model\plane.h">
+      <Filter>Driver\Random\Libnoise\Core\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\model\sphere.h">
+      <Filter>Driver\Random\Libnoise\Core\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Interface\IRandom.h">
+      <Filter>Core\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\TCC\ZScriptTCC.h">
+      <Filter>Driver\Script\TCC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\TCC\Core\coff.h">
+      <Filter>Driver\Script\TCC\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\TCC\Core\config.h">
+      <Filter>Driver\Script\TCC\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\TCC\Core\elf.h">
+      <Filter>Driver\Script\TCC\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\TCC\Core\i386-asm.h">
+      <Filter>Driver\Script\TCC\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\TCC\Core\i386-tok.h">
+      <Filter>Driver\Script\TCC\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\TCC\Core\il-opcodes.h">
+      <Filter>Driver\Script\TCC\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\TCC\Core\libtcc.h">
+      <Filter>Driver\Script\TCC\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\TCC\Core\stab.h">
+      <Filter>Driver\Script\TCC\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\TCC\Core\tcc.h">
+      <Filter>Driver\Script\TCC\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\TCC\Core\tcctok.h">
+      <Filter>Driver\Script\TCC\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\TCC\Core\x86_64-asm.h">
+      <Filter>Driver\Script\TCC\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Debugger\MiniDump\ZDebuggerWin.h">
+      <Filter>Driver\Debugger\MiniDump</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Timer\DXUT\ZTimerDXUT.h">
+      <Filter>Driver\Timer\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Asset\Model\MS3D\ZAssetMS3D.h">
+      <Filter>Driver\Asset\Model\MS3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\lpcap.h">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\lpcode.h">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\lpprint.h">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\lptree.h">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\lptypes.h">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\lpvm.h">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Template\TKdTree.h">
+      <Filter>Core\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Interface\ITunnel.h">
+      <Filter>Core\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Driver\Tunnel\WinPipe\ZWinPipe.h">
+      <Filter>Driver\Tunnel\WinPipe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Interface\IDevice.h">
+      <Filter>Core\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Template\TMap.h">
+      <Filter>Core\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Interface\Interfaces.h">
+      <Filter>Core\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Template\TShaderGenerator.h">
+      <Filter>Core\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Template\TShaderMacro.h">
+      <Filter>Core\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Template\TAtomic.h">
+      <Filter>Core\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Common\ZDynamicObject.h">
+      <Filter>Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Common\ZMemoryStream.h">
+      <Filter>Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Common\ZMeta.h">
+      <Filter>Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Common\ZPacket.h">
+      <Filter>Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Common\ZRemoteProxy.h">
+      <Filter>Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Common\ZScriptReflect.h">
+      <Filter>Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Common\ZThreadPool.h">
+      <Filter>Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Common\ZType.h">
+      <Filter>Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Object\Tiny.h">
+      <Filter>Core\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Object\Graph.h">
+      <Filter>Core\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Common\ZShaderWalker.h">
+      <Filter>Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Common\ZPipeline.h">
+      <Filter>Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Common\ZRenderFlow.h">
+      <Filter>Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Common\ZBatchRanger.h">
+      <Filter>Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\PaintsNow.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Core\Common\ZTaskQueue.h">
+      <Filter>Core\Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Source\Core\Interface\IScript.cpp">
+      <Filter>Core\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Archive\Dirent\ZArchiveDirent.cpp">
+      <Filter>Driver\Archive\Dirent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Asset\Model\MS3D\ZAssetMS3D.cpp">
+      <Filter>Driver\Asset\Model\MS3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Audio\Decoder\LAME\ZDecoderLAME.cpp">
+      <Filter>Driver\Audio\Decoder\LAME</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Audio\OpenAL\ZAudioOpenAL.cpp">
+      <Filter>Driver\Audio\OpenAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\7zAlloc.c">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\7zBuf.c">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\7zBuf2.c">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\7zCrc.c">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\7zCrcOpt.c">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\7zDec.c">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\7zFile.c">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\7zStream.c">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Alloc.c">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Bcj2.c">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Bra.c">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Bra86.c">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\BraIA64.c">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\CpuArch.c">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Delta.c">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\LzFind.c">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Lzma86Dec.c">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Lzma86Enc.c">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\LzmaDec.c">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\LzmaEnc.c">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\LzmaLib.c">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Ppmd7.c">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Ppmd7Dec.c">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Ppmd7Enc.c">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Sha256.c">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\ZFilterLZMA.cpp">
+      <Filter>Driver\Filter\LZMA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\Pod\Core\Pod.c">
+      <Filter>Driver\Filter\Pod\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\Pod\ZFilterPod.cpp">
+      <Filter>Driver\Filter\Pod</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Font\Freetype\ZFontFreetype.cpp">
+      <Filter>Driver\Font\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Frame\Freeglut\ZFrameFreeglut.cpp">
+      <Filter>Driver\Frame\Freeglut</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\ZScriptLua.cpp">
+      <Filter>Driver\Script\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lapi.c">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lauxlib.c">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lbaselib.c">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lbitlib.c">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lcode.c">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lcorolib.c">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lctype.c">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\ldblib.c">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\ldebug.c">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\ldo.c">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\ldump.c">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lfunc.c">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lgc.c">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\linit.c">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\liolib.c">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\llex.c">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lmathlib.c">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lmem.c">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\loadlib.c">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lobject.c">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lopcodes.c">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\loslib.c">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lparser.c">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lstate.c">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lstring.c">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lstrlib.c">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\ltable.c">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\ltablib.c">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\ltm.c">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lundump.c">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lutf8lib.c">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lvm.c">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lzio.c">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Thread\Pthread\ZThreadPthread.cpp">
+      <Filter>Driver\Thread\Pthread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Timer\Freeglut\ZTimerFreeglut.cpp">
+      <Filter>Driver\Timer\Freeglut</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Aes.c">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\AesOpt.c">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Sort.c">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Archive\7Z\ZArchive7Z.cpp">
+      <Filter>Driver\Archive\7Z</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\7zArcIn.c">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Core\Interface\IStreamBase.cpp">
+      <Filter>Core\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Core\Interface\IArchive.cpp">
+      <Filter>Core\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Core\Interface\IAsset.cpp">
+      <Filter>Core\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Core\Interface\IAudio.cpp">
+      <Filter>Core\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Core\Interface\IFrame.cpp">
+      <Filter>Core\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Core\Interface\IImage.cpp">
+      <Filter>Core\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Core\Interface\ILayout.cpp">
+      <Filter>Core\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Core\Interface\IMemory.cpp">
+      <Filter>Core\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Core\Interface\INetwork.cpp">
+      <Filter>Core\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Core\Interface\IRender.cpp">
+      <Filter>Core\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Core\Interface\IShader.cpp">
+      <Filter>Core\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Core\Interface\IThread.cpp">
+      <Filter>Core\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Core\Interface\ITimer.cpp">
+      <Filter>Core\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Core\Interface\IReflect.cpp">
+      <Filter>Core\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Core\Interface\IDebugger.cpp">
+      <Filter>Core\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Core\Interface\IDeferredObject.cpp">
+      <Filter>Core\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Render\OpenGL\3\ZRenderOpenGL3.cpp">
+      <Filter>Driver\Render\OpenGL\3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Timer\WinTimerQueue\ZWinTimerQueue.cpp">
+      <Filter>Driver\Timer\WinQueueTimer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Network\LibEvent\ZNetworkLibEvent.cpp">
+      <Filter>Driver\Network\LibEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\Json\ZFilterJson.cpp">
+      <Filter>Driver\Filter\Json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\Json\Core\json_reader.cpp">
+      <Filter>Driver\Filter\Json\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\Json\Core\json_value.cpp">
+      <Filter>Driver\Filter\Json\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\Json\Core\json_writer.cpp">
+      <Filter>Driver\Filter\Json\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Timer\PosixTimer\ZPosixTimer.cpp">
+      <Filter>Driver\Timer\PosixTimer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZW\ZFilterLZW.cpp">
+      <Filter>Driver\Filter\LZW</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Core\Interface\IDatabase.cpp">
+      <Filter>Core\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Database\Sqlite\ZDatabaseSqlite.cpp">
+      <Filter>Driver\Database\Sqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Database\Sqlite\Core\sqlite3.c">
+      <Filter>Driver\Database\Sqlite\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Core\Interface\IFontBase.cpp">
+      <Filter>Core\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Core\Interface\IFilterBase.cpp">
+      <Filter>Core\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Core\Interface\ITask.cpp">
+      <Filter>Core\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Xz.c">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\XzCrc64.c">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\XzCrc64Opt.c">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\XzDec.c">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\XzEnc.c">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\XzIn.c">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Image\FreeImage\ZImageFreeImage.cpp">
+      <Filter>Driver\Image\FreeImage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\LzFindMt.c">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Lzma2Dec.c">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Lzma2Enc.c">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\MtCoder.c">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Threads.c">
+      <Filter>Driver\Filter\LZMA\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\ZRandomLibnoisePerlin.cpp">
+      <Filter>Driver\Random\Libnoise</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\latlon.cpp">
+      <Filter>Driver\Random\Libnoise\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\noisegen.cpp">
+      <Filter>Driver\Random\Libnoise\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\abs.cpp">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\add.cpp">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\billow.cpp">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\blend.cpp">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\cache.cpp">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\checkerboard.cpp">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\clamp.cpp">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\const.cpp">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\curve.cpp">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\cylinders.cpp">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\displace.cpp">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\exponent.cpp">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\invert.cpp">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\max.cpp">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\min.cpp">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\modulebase.cpp">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\multiply.cpp">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\perlin.cpp">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\power.cpp">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\ridgedmulti.cpp">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\rotatepoint.cpp">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\scalebias.cpp">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\scalepoint.cpp">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\select.cpp">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\spheres.cpp">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\terrace.cpp">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\translatepoint.cpp">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\turbulence.cpp">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\voronoi.cpp">
+      <Filter>Driver\Random\Libnoise\Core\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\model\cylinder.cpp">
+      <Filter>Driver\Random\Libnoise\Core\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\model\line.cpp">
+      <Filter>Driver\Random\Libnoise\Core\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\model\plane.cpp">
+      <Filter>Driver\Random\Libnoise\Core\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\model\sphere.cpp">
+      <Filter>Driver\Random\Libnoise\Core\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Core\Interface\IRandom.cpp">
+      <Filter>Core\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\TCC\ZScriptTCC.cpp">
+      <Filter>Driver\Script\TCC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\TCC\Core\arm-gen.c">
+      <Filter>Driver\Script\TCC\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\TCC\Core\c67-gen.c">
+      <Filter>Driver\Script\TCC\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\TCC\Core\i386-asm.c">
+      <Filter>Driver\Script\TCC\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\TCC\Core\i386-gen.c">
+      <Filter>Driver\Script\TCC\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\TCC\Core\il-gen.c">
+      <Filter>Driver\Script\TCC\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\TCC\Core\libtcc.c">
+      <Filter>Driver\Script\TCC\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\TCC\Core\tccasm.c">
+      <Filter>Driver\Script\TCC\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\TCC\Core\tcccoff.c">
+      <Filter>Driver\Script\TCC\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\TCC\Core\tccelf.c">
+      <Filter>Driver\Script\TCC\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\TCC\Core\tccgen.c">
+      <Filter>Driver\Script\TCC\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\TCC\Core\tccpe.c">
+      <Filter>Driver\Script\TCC\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\TCC\Core\tccpp.c">
+      <Filter>Driver\Script\TCC\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\TCC\Core\tccrun.c">
+      <Filter>Driver\Script\TCC\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\TCC\Core\x86_64-gen.c">
+      <Filter>Driver\Script\TCC\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Debugger\MiniDump\ZDebuggerWin.cpp">
+      <Filter>Driver\Debugger\MiniDump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Timer\DXUT\ZTimerDXUT.cpp">
+      <Filter>Driver\Timer\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lpcap.c">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lpcode.c">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lpprint.c">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lptree.c">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lpvm.c">
+      <Filter>Driver\Script\Lua\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Core\Interface\ITunnel.cpp">
+      <Filter>Core\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Driver\Tunnel\WinPipe\ZWinPipe.cpp">
+      <Filter>Driver\Tunnel\WinPipe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Core\Interface\IDevice.cpp">
+      <Filter>Core\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Core\Interface\Interfaces.cpp">
+      <Filter>Core\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Core\Common\ZDynamicObject.cpp">
+      <Filter>Core\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Core\Common\ZMemoryStream.cpp">
+      <Filter>Core\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Core\Common\ZMeta.cpp">
+      <Filter>Core\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Core\Common\ZPacket.cpp">
+      <Filter>Core\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Core\Common\ZRemoteProxy.cpp">
+      <Filter>Core\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Core\Common\ZScriptReflect.cpp">
+      <Filter>Core\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Core\Common\ZThreadPool.cpp">
+      <Filter>Core\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Core\Common\ZType.cpp">
+      <Filter>Core\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Core\Object\Tiny.cpp">
+      <Filter>Core\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Core\Object\Graph.cpp">
+      <Filter>Core\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Core\Common\ZShaderWalker.cpp">
+      <Filter>Core\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Core\Common\ZPipeline.cpp">
+      <Filter>Core\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Core\Common\ZRenderFlow.cpp">
+      <Filter>Core\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Core\Common\ZBatchRanger.cpp">
+      <Filter>Core\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Core\Common\ZTaskQueue.cpp">
+      <Filter>Core\Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Source\Driver\Filter\Json\Core\json_valueiterator.inl">
+      <Filter>Driver\Filter\Json\Core</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\Driver\Script\TCC\Core\.gitignore">
+      <Filter>Driver\Script\TCC\Core</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\Driver\Script\TCC\Core\Changelog">
+      <Filter>Driver\Script\TCC\Core</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\Driver\Script\TCC\Core\config.mak">
+      <Filter>Driver\Script\TCC\Core</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\Driver\Script\TCC\Core\config.texi">
+      <Filter>Driver\Script\TCC\Core</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\Driver\Script\TCC\Core\configure">
+      <Filter>Driver\Script\TCC\Core</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\Driver\Script\TCC\Core\COPYING">
+      <Filter>Driver\Script\TCC\Core</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\Driver\Script\TCC\Core\Makefile">
+      <Filter>Driver\Script\TCC\Core</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\Driver\Script\TCC\Core\README">
+      <Filter>Driver\Script\TCC\Core</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\Driver\Script\TCC\Core\stab.def">
+      <Filter>Driver\Script\TCC\Core</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\Driver\Script\TCC\Core\tcc-doc.html">
+      <Filter>Driver\Script\TCC\Core</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\Driver\Script\TCC\Core\tcc-doc.texi">
+      <Filter>Driver\Script\TCC\Core</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\Driver\Script\TCC\Core\texi2pod.pl">
+      <Filter>Driver\Script\TCC\Core</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\Driver\Script\TCC\Core\TODO">
+      <Filter>Driver\Script\TCC\Core</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\Driver\Script\TCC\Core\VERSION">
+      <Filter>Driver\Script\TCC\Core</Filter>
+    </None>
+  </ItemGroup>
+</Project>

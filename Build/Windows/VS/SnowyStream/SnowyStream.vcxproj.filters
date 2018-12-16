@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{a3458440-9144-46ec-ac7b-b6270956502c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Shaders">
+      <UniqueIdentifier>{937219aa-8b8a-445b-a454-c7f3a3b9a733}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Pipelines">
+      <UniqueIdentifier>{09c468ce-7803-4a81-8910-b73ac4784ff2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\SnowyStream.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\File.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\AudioResource.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\MaterialResource.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\MeshResource.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\TapeResource.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\TextureResource.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\ResourceBase.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\GraphicResourceBase.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\ResourceManager.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\FontResource.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\TextResource.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\ParticleResource.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\ShaderResource.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\VolumeResource.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\TerrainResource.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\RenderTargetResource.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Shaders\DeferredCompact.cpp">
+      <Filter>Resource\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Shaders\ScreenSpaceTrace.cpp">
+      <Filter>Resource\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Shaders\ShadowMap.cpp">
+      <Filter>Resource\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Shaders\SineWave.cpp">
+      <Filter>Resource\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Shaders\StandardLighting.cpp">
+      <Filter>Resource\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Shaders\StandardParameter.cpp">
+      <Filter>Resource\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Shaders\StandardSkinning.cpp">
+      <Filter>Resource\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Shaders\StandardTransform.cpp">
+      <Filter>Resource\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Shaders\MultiHashTrace.cpp">
+      <Filter>Resource\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\ModelResource.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Shaders\WidgetShading.cpp">
+      <Filter>Resource\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Shaders\WidgetTransform.cpp">
+      <Filter>Resource\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Zipper.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Pipelines\DeferredLightingPipeline.cpp">
+      <Filter>Resource\Pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Pipelines\HashTracePipeline.cpp">
+      <Filter>Resource\Pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Pipelines\ParticlePipeline.cpp">
+      <Filter>Resource\Pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Pipelines\StandardPipeline.cpp">
+      <Filter>Resource\Pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Pipelines\TerrainPipeline.cpp">
+      <Filter>Resource\Pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Pipelines\VolumePipeline.cpp">
+      <Filter>Resource\Pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Pipelines\WaterPipeline.cpp">
+      <Filter>Resource\Pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Pipelines\WidgetPipeline.cpp">
+      <Filter>Resource\Pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\SkeletonResource.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Resource\AnalyticCurveResource.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\SnowyStream\Cache.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\SnowyStream.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\File.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\AudioResource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\MaterialResource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\MeshResource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\TapeResource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\TextureResource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\ResourceBase.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\GraphicResourceBase.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\ResourceManager.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\FontResource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\TextResource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\ParticleResource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\ShaderResource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\VolumeResource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\TerrainResource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\RenderTargetResource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Shaders\DeferredCompact.h">
+      <Filter>Resource\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Shaders\ScreenSpaceTrace.h">
+      <Filter>Resource\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Shaders\ShadowMap.h">
+      <Filter>Resource\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Shaders\SineWave.h">
+      <Filter>Resource\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Shaders\StandardLighting.h">
+      <Filter>Resource\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Shaders\StandardParameter.h">
+      <Filter>Resource\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Shaders\StandardSkinning.h">
+      <Filter>Resource\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Shaders\StandardTransform.h">
+      <Filter>Resource\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Shaders\MultiHashTrace.h">
+      <Filter>Resource\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\ModelResource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Shaders\WidgetShading.h">
+      <Filter>Resource\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Shaders\WidgetTransform.h">
+      <Filter>Resource\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Zipper.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Pipelines\DeferredLightingPipeline.h">
+      <Filter>Resource\Pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Pipelines\HashTracePipeline.h">
+      <Filter>Resource\Pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Pipelines\ParticlePipeline.h">
+      <Filter>Resource\Pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Pipelines\StandardPipeline.h">
+      <Filter>Resource\Pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Pipelines\TerrainPipeline.h">
+      <Filter>Resource\Pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Pipelines\VolumePipeline.h">
+      <Filter>Resource\Pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Pipelines\WaterPipeline.h">
+      <Filter>Resource\Pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\Pipelines\WidgetPipeline.h">
+      <Filter>Resource\Pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\SkeletonResource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Resource\AnalyticCurveResource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\SnowyStream\Cache.h" />
+  </ItemGroup>
+</Project>

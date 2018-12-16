@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Source\Utility\LostDream\LostDream.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\LostDream\main.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\LostDream\Reflection\Annotation.cpp">
+      <Filter>Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\LostDream\Reflection\RPC.cpp">
+      <Filter>Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\LostDream\Reflection\Serialization.cpp">
+      <Filter>Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\LostDream\Spatial\RandomQuery.cpp">
+      <Filter>Spatial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\LostDream\Spatial\Routing.cpp">
+      <Filter>Spatial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\LostDream\Reflection\PipeMsg.cpp">
+      <Filter>Reflection</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Source\Utility\LostDream\LostDream.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\LostDream\Reflection\Reflection.h">
+      <Filter>Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\LostDream\Spatial\Spatial.h">
+      <Filter>Spatial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\LostDream\Reflection\Annotation.h">
+      <Filter>Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\LostDream\Reflection\RPC.h">
+      <Filter>Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\LostDream\Reflection\Serialization.h">
+      <Filter>Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\LostDream\Spatial\RandomQuery.h">
+      <Filter>Spatial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\LostDream\Spatial\Routing.h">
+      <Filter>Spatial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\LostDream\Reflection\PipeMsg.h">
+      <Filter>Reflection</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Spatial">
+      <UniqueIdentifier>{e2ac5431-b08b-4cc1-aa3c-571c89969e15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Reflection">
+      <UniqueIdentifier>{1082def8-e5b5-477b-94a5-4b4e28614b06}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

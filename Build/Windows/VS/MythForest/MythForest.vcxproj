@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseDynamicCRT|Win32">
+      <Configuration>ReleaseDynamicCRT</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseDynamicCRT|x64">
+      <Configuration>ReleaseDynamicCRT</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1390F3FE-47DC-44F9-9C21-DAE0E6600B1C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>MythForest</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseDynamicCRT|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseDynamicCRT|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseDynamicCRT|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseDynamicCRT|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseDynamicCRT|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseDynamicCRT|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Source\Utility\MythForest\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Animation\AnimationComponent.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Animation\AnimationComponentModule.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Batch\BatchComponent.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Batch\BatchComponentModule.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Camera\CameraComponent.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Camera\CameraComponentModule.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Compute\ComputeComponent.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Compute\ComputeComponentModule.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Event\EventListenerComponent.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Event\EventListenerComponentModule.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Field\FieldComponent.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Field\FieldComponentModule.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Form\FormComponent.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Form\FormComponentModule.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Light\LightComponent.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Light\LightComponentModule.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Model\ModelComponent.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Model\ModelComponentModule.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Particle\ParticleComponent.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Particle\ParticleComponentModule.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Renderable\RenderableComponent.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Renderable\RenderableComponentModule.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderFlowComponent.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderFlowComponentModule.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderPort.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderPort\RenderPortCommandQueue.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderPort\RenderPortLightSource.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderPort\RenderPortRenderTarget.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderStage.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderStage\DeferredLightingRenderStage.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderStage\FrameBarrierRenderStage.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderStage\GeometryBufferRenderStage.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderStage\HighDynamicRangeRenderStage.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderStage\ScreenSpaceTraceRenderStage.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderStage\ShadowMaskRenderStage.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderStage\TemporalResamplerRenderStage.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Shape\ShapeComponent.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Shape\ShapeComponentModule.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Sound\SoundComponent.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Sound\SoundComponentModule.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Space\SpaceComponent.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Space\SpaceComponentModule.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Surface\SurfaceComponent.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Surface\SurfaceComponentModule.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Terrain\TerrainComponent.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Terrain\TerrainComponentModule.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Transform\TransformComponent.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Transform\TransformComponentModule.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Visibility\VisibilityComponent.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Component\Visibility\VisibilityComponentModule.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Engine.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Entity.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Event.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Module.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\MythForest.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Utility\MythForest\Unit.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Animation\AnimationComponent.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Animation\AnimationComponentModule.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Batch\BatchComponent.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Batch\BatchComponentModule.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Camera\CameraComponent.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Camera\CameraComponentModule.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Compute\ComputeComponent.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Compute\ComputeComponentModule.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Event\EventListenerComponent.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Event\EventListenerComponentModule.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Field\FieldComponent.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Field\FieldComponentModule.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Form\FormComponent.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Form\FormComponentModule.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Light\LightComponent.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Light\LightComponentModule.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Model\ModelComponent.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Model\ModelComponentModule.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Particle\ParticleComponent.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Particle\ParticleComponentModule.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Renderable\RenderableComponent.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Renderable\RenderableComponentModule.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderFlowComponent.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderFlowComponentModule.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderPort.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderPort\RenderPortCommandQueue.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderPort\RenderPortLightSource.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderPort\RenderPortRenderTarget.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderStage.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderStage\DeferredLightingRenderStage.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderStage\FrameBarrierRenderStage.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderStage\GeometryBufferRenderStage.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderStage\HighDynamicRangeRenderStage.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderStage\ScreenSpaceTraceRenderStage.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderStage\ShadowMaskRenderStage.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\RenderFlow\RenderStage\TemporalResamplerRenderStage.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Shape\ShapeComponent.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Shape\ShapeComponentModule.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Sound\SoundComponent.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Sound\SoundComponentModule.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Space\SpaceComponent.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Space\SpaceComponentModule.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Surface\SurfaceComponent.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Surface\SurfaceComponentModule.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Terrain\TerrainComponent.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Terrain\TerrainComponentModule.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Transform\TransformComponent.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Transform\TransformComponentModule.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Visibility\VisibilityComponent.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Component\Visibility\VisibilityComponentModule.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Engine.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Entity.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Event.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Module.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\MythForest.h" />
+    <ClInclude Include="..\..\..\..\Source\Utility\MythForest\Unit.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\COM">
+      <UniqueIdentifier>{43a63c4a-5333-45e9-9531-4fa251212dcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\COM">
+      <UniqueIdentifier>{41e3073c-8310-4d1e-8b10-1d1278ee3c1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DirectScript">
+      <UniqueIdentifier>{0b17bf91-2ffd-40d0-893d-d5fdccc6302a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DirectScript">
+      <UniqueIdentifier>{6a811955-4a90-42d2-86a0-30f628704f71}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Source\Utility\RayForce\RayForce.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\RayForce\Tunnel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\RayForce\Proxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\RayForce\COM\ComDispatch.cpp">
+      <Filter>Source Files\COM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\RayForce\COM\ComBridge.cpp">
+      <Filter>Source Files\COM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\RayForce\Bridge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\RayForce\ObjectDumper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\RayForce\COM\ComDef.cpp">
+      <Filter>Source Files\COM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\RayForce\DirectScript\DirectScriptBridge.cpp">
+      <Filter>Source Files\DirectScript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Utility\RayForce\LibLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Source\Utility\RayForce\RayForce.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\RayForce\Tunnel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\RayForce\Proxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\RayForce\COM\ComBridge.h">
+      <Filter>Header Files\COM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\RayForce\COM\ComDispatch.h">
+      <Filter>Header Files\COM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\RayForce\Bridge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\RayForce\ObjectDumper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\RayForce\COM\ComDef.h">
+      <Filter>Header Files\COM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\RayForce\DirectScript\DirectScriptBridge.h">
+      <Filter>Header Files\DirectScript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Utility\RayForce\LibLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

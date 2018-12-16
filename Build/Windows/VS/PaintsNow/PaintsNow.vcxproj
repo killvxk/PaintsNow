@@ -1,0 +1,649 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseDynamicCRT|Win32">
+      <Configuration>ReleaseDynamicCRT</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseDynamicCRT|x64">
+      <Configuration>ReleaseDynamicCRT</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6B883EF1-7830-4015-84B7-844D2BF1F45E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>PaintsNow</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseDynamicCRT|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseDynamicCRT|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseDynamicCRT|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseDynamicCRT|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(IncludePath);</IncludePath>
+    <LibraryPath>$(LibraryPath);</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(IncludePath);</IncludePath>
+    <LibraryPath>$(LibraryPath);</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <IgnoreSpecificDefaultLibraries>libcmt.lib</IgnoreSpecificDefaultLibraries>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <IgnoreSpecificDefaultLibraries>libcmt.lib</IgnoreSpecificDefaultLibraries>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseDynamicCRT|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseDynamicCRT|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Source\Core\Common\ZBatchRanger.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Common\ZDynamicObject.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Common\ZMemoryStream.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Common\ZMeta.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Common\ZPacket.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Common\ZPipeline.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Common\ZRemoteProxy.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Common\ZRenderFlow.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Common\ZScriptReflect.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Common\ZShaderWalker.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Common\ZTaskQueue.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Common\ZThreadPool.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Common\ZType.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Interface\IArchive.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Interface\IAsset.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Interface\IAudio.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Interface\IDatabase.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Interface\IDebugger.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Interface\IDeferredObject.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Interface\IDevice.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Interface\IFilterBase.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Interface\IFontBase.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Interface\IFrame.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Interface\IImage.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Interface\ILayout.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Interface\IMemory.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Interface\INetwork.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Interface\Interfaces.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Interface\IRandom.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Interface\IReflect.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Interface\IRender.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Interface\IScript.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Interface\IShader.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Interface\IStreamBase.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Interface\ITask.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Interface\IThread.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Interface\ITimer.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Interface\ITunnel.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Object\Graph.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Object\Tiny.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\PaintsNow.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Template\TAlgorithm.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Template\TAtomic.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Template\TEvent.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Template\TFactory.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Template\TKdTree.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Template\TMap.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Template\TMaskType.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Template\TMatrix.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Template\TObject.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Template\TProxy.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Template\TShaderGenerator.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Template\TShaderMacro.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Template\TShaderVariable.h" />
+    <ClInclude Include="..\..\..\..\Source\Core\Template\TVector.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Archive\7Z\ZArchive7Z.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Archive\Dirent\ZArchiveDirent.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Asset\Model\MS3D\ZAssetMS3D.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Audio\Decoder\LAME\ZDecoderLAME.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Audio\OpenAL\ZAudioOpenAL.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Database\Sqlite\Core\sqlite3.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Database\Sqlite\Core\sqlite3ext.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Database\Sqlite\ZDatabaseSqlite.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Debugger\MiniDump\ZDebuggerWin.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\Json\Core\assertions.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\Json\Core\autolink.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\Json\Core\config.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\Json\Core\features.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\Json\Core\forwards.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\Json\Core\json.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\Json\Core\json_tool.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\Json\Core\reader.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\Json\Core\value.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\Json\Core\version.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\Json\Core\writer.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\Json\ZFilterJson.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\7z.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\7zAlloc.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\7zBuf.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\7zCrc.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\7zFile.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\7zTypes.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\7zVersion.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Aes.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Alloc.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Bcj2.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Bra.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Compiler.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\CpuArch.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Delta.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\LzFind.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\LzFindMt.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\LzHash.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Lzma2Dec.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Lzma2Enc.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Lzma86.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\LzmaDec.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\LzmaEnc.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\LzmaLib.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\MtCoder.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Ppmd.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Ppmd7.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Precomp.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\RotateDefs.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Sha256.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Sort.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Threads.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Types.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Xz.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\XzCrc64.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\XzEnc.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZMA\ZFilterLZMA.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\LZW\ZFilterLZW.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\Pod\Core\Pod.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Filter\Pod\ZFilterPod.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Font\Freetype\ZFontFreetype.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Frame\Freeglut\ZFrameFreeglut.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Image\FreeImage\ZImageFreeImage.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Network\LibEvent\ZNetworkLibEvent.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\basictypes.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\exception.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\interp.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\latlon.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\mathconsts.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\misc.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\model\cylinder.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\model\line.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\model\model.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\model\plane.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\model\sphere.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\abs.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\add.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\billow.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\blend.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\cache.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\checkerboard.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\clamp.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\const.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\curve.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\cylinders.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\displace.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\exponent.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\invert.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\max.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\min.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\module.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\modulebase.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\multiply.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\perlin.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\power.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\ridgedmulti.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\rotatepoint.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\scalebias.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\scalepoint.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\select.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\spheres.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\terrace.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\translatepoint.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\turbulence.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\voronoi.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\noise.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\noisegen.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\vectortable.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Random\Libnoise\ZRandomLibnoisePerlin.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Render\OpenGL\3\ZRenderOpenGL3.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\lapi.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\lauxlib.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\lcode.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\lctype.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\ldebug.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\ldo.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\lfunc.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\lgc.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\llex.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\llimits.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\lmem.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\lobject.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\lopcodes.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\lparser.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\lpcap.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\lpcode.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\lpprint.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\lprefix.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\lptree.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\lptypes.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\lpvm.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\lstate.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\lstring.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\ltable.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\ltm.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\lua.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\lua.hpp" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\luaconf.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\lualib.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\lundump.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\lvm.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\Core\lzio.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\Lua\ZScriptLua.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\TCC\Core\coff.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\TCC\Core\config.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\TCC\Core\elf.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\TCC\Core\i386-asm.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\TCC\Core\i386-tok.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\TCC\Core\il-opcodes.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\TCC\Core\libtcc.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\TCC\Core\stab.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\TCC\Core\tcc.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\TCC\Core\tcctok.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\TCC\Core\x86_64-asm.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Script\TCC\ZScriptTCC.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Thread\Pthread\ZThreadPthread.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Timer\DXUT\ZTimerDXUT.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Timer\Freeglut\ZTimerFreeglut.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Timer\PosixTimer\ZPosixTimer.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Timer\WinTimerQueue\ZWinTimerQueue.h" />
+    <ClInclude Include="..\..\..\..\Source\Driver\Tunnel\WinPipe\ZWinPipe.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Source\Core\Common\ZBatchRanger.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Core\Common\ZDynamicObject.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Core\Common\ZMemoryStream.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Core\Common\ZMeta.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Core\Common\ZPacket.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Core\Common\ZPipeline.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Core\Common\ZRemoteProxy.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Core\Common\ZRenderFlow.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Core\Common\ZScriptReflect.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Core\Common\ZShaderWalker.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Core\Common\ZTaskQueue.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Core\Common\ZThreadPool.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Core\Common\ZType.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Core\Interface\IArchive.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Core\Interface\IAsset.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Core\Interface\IAudio.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Core\Interface\IDatabase.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Core\Interface\IDebugger.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Core\Interface\IDeferredObject.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Core\Interface\IDevice.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Core\Interface\IFilterBase.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Core\Interface\IFontBase.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Core\Interface\IFrame.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Core\Interface\IImage.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Core\Interface\ILayout.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Core\Interface\IMemory.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Core\Interface\INetwork.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Core\Interface\Interfaces.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Core\Interface\IRandom.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Core\Interface\IReflect.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Core\Interface\IRender.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Core\Interface\IScript.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Core\Interface\IShader.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Core\Interface\IStreamBase.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Core\Interface\ITask.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Core\Interface\IThread.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Core\Interface\ITimer.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Core\Interface\ITunnel.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Core\Object\Graph.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Core\Object\Tiny.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Archive\7Z\ZArchive7Z.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Archive\Dirent\ZArchiveDirent.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Asset\Model\MS3D\ZAssetMS3D.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Audio\Decoder\LAME\ZDecoderLAME.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Audio\OpenAL\ZAudioOpenAL.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Database\Sqlite\Core\sqlite3.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Database\Sqlite\ZDatabaseSqlite.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Debugger\MiniDump\ZDebuggerWin.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\Json\Core\json_reader.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\Json\Core\json_value.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\Json\Core\json_writer.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\Json\ZFilterJson.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\7zAlloc.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\7zArcIn.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\7zBuf.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\7zBuf2.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\7zCrc.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\7zCrcOpt.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\7zDec.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\7zFile.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\7zStream.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Aes.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\AesOpt.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Alloc.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Bcj2.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Bra.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Bra86.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\BraIA64.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\CpuArch.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Delta.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\LzFind.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\LzFindMt.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Lzma2Dec.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Lzma2Enc.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Lzma86Dec.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Lzma86Enc.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\LzmaDec.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\LzmaEnc.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\LzmaLib.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\MtCoder.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Ppmd7.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Ppmd7Dec.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Ppmd7Enc.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Sha256.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Sort.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Threads.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\Xz.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\XzCrc64.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\XzCrc64Opt.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\XzDec.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\XzEnc.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\Core\XzIn.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZMA\ZFilterLZMA.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\LZW\ZFilterLZW.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\Pod\Core\Pod.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Filter\Pod\ZFilterPod.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Font\Freetype\ZFontFreetype.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Frame\Freeglut\ZFrameFreeglut.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Image\FreeImage\ZImageFreeImage.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Network\LibEvent\ZNetworkLibEvent.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\latlon.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\model\cylinder.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\model\line.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\model\plane.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\model\sphere.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\abs.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\add.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\billow.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\blend.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\cache.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\checkerboard.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\clamp.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\const.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\curve.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\cylinders.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\displace.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\exponent.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\invert.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\max.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\min.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\modulebase.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\multiply.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\perlin.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\power.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\ridgedmulti.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\rotatepoint.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\scalebias.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\scalepoint.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\select.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\spheres.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\terrace.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\translatepoint.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\turbulence.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\module\voronoi.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\Core\noisegen.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Random\Libnoise\ZRandomLibnoisePerlin.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Render\OpenGL\3\ZRenderOpenGL3.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lapi.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lauxlib.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lbaselib.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lbitlib.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lcode.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lcorolib.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lctype.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\ldblib.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\ldebug.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\ldo.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\ldump.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lfunc.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lgc.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\linit.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\liolib.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\llex.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lmathlib.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lmem.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\loadlib.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lobject.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lopcodes.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\loslib.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lparser.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lpcap.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lpcode.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lpprint.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lptree.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lpvm.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lstate.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lstring.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lstrlib.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\ltable.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\ltablib.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\ltm.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lundump.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lutf8lib.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lvm.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\Core\lzio.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\Lua\ZScriptLua.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\TCC\Core\arm-gen.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\TCC\Core\c67-gen.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\TCC\Core\i386-asm.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\TCC\Core\i386-gen.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\TCC\Core\il-gen.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\TCC\Core\libtcc.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\TCC\Core\tccasm.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\TCC\Core\tcccoff.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\TCC\Core\tccelf.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\TCC\Core\tccgen.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\TCC\Core\tccpe.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\TCC\Core\tccpp.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\TCC\Core\tccrun.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\TCC\Core\x86_64-gen.c" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Script\TCC\ZScriptTCC.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Thread\Pthread\ZThreadPthread.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Timer\DXUT\ZTimerDXUT.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Timer\Freeglut\ZTimerFreeglut.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Timer\PosixTimer\ZPosixTimer.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Timer\WinTimerQueue\ZWinTimerQueue.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Driver\Tunnel\WinPipe\ZWinPipe.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Source\Driver\Filter\Json\Core\json_valueiterator.inl" />
+    <None Include="..\..\..\..\Source\Driver\Script\TCC\Core\.gitignore" />
+    <None Include="..\..\..\..\Source\Driver\Script\TCC\Core\Changelog" />
+    <None Include="..\..\..\..\Source\Driver\Script\TCC\Core\config.mak" />
+    <None Include="..\..\..\..\Source\Driver\Script\TCC\Core\config.texi" />
+    <None Include="..\..\..\..\Source\Driver\Script\TCC\Core\configure" />
+    <None Include="..\..\..\..\Source\Driver\Script\TCC\Core\COPYING" />
+    <None Include="..\..\..\..\Source\Driver\Script\TCC\Core\Makefile" />
+    <None Include="..\..\..\..\Source\Driver\Script\TCC\Core\README" />
+    <None Include="..\..\..\..\Source\Driver\Script\TCC\Core\stab.def" />
+    <None Include="..\..\..\..\Source\Driver\Script\TCC\Core\tcc-doc.html" />
+    <None Include="..\..\..\..\Source\Driver\Script\TCC\Core\tcc-doc.texi" />
+    <None Include="..\..\..\..\Source\Driver\Script\TCC\Core\texi2pod.pl" />
+    <None Include="..\..\..\..\Source\Driver\Script\TCC\Core\TODO" />
+    <None Include="..\..\..\..\Source\Driver\Script\TCC\Core\VERSION" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
